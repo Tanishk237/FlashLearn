@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "**FlashLearn** is a full-stack micro-SaaS application designed for learners who want to transform educational videos into smart, interactive study tools. By leveraging AI, FlashLearn automates the process of transcribing videos, summarizing content, and generating flashcards and quizzes — helping users study smarter, not harder.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
-  },
+"scripts": {
+  "dev": "nodemon server.js",
+  "start": "node server.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tanishk237/FlashLearn.git"
